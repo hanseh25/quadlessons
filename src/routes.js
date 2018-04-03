@@ -6,6 +6,7 @@ import Home from './components/home';
 import Don from './components/lessons/don';
 import Ivy from './components/lessons/ivy';
 import James from './components/lessons/james';
+import Hans from './components/lessons/hans';
 import PageNotFound from './common/not-found';
 
 export default (
@@ -15,6 +16,7 @@ export default (
     <Route path="/don" component={Don}/>
     <Route path="/ivy" component={Ivy}/>
     <Route path="/james" component={James}/>
+    <Route path="/hans" component={Hans}/>
     <Route path="*" component={PageNotFound} />
 
   </Switch>
