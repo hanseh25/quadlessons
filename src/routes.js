@@ -16,7 +16,7 @@ export default (
     <Route path="/don" component={Don}/>
     <Route path="/ivy" component={Ivy}/>
     <Route path="/james" component={James}/>
-    <Route path="/hans" component={Hans}/>
+      <Route path="/hans" component={Hans}/>
     <Route path="*" component={PageNotFound} />
 
   </Switch>
